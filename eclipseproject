@@ -1,0 +1,33 @@
+package com.mounika;
+
+public class Calculator {
+	int a=10;
+    int b=20;
+    public int sum(int a, int b)
+    {
+   	 return a + b;
+    }
+    public int sub(int a, int b)
+    {
+   	 return a - b;
+    }
+    public int mul(int a, int b)
+    {
+   	 return a * b;
+    }
+    public int divide(int a, int b)
+    {
+   	 return a / b;
+    }
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator object = new Calculator( );
+	      System.out.println(object.sum(object.a,object.b));
+	      System.out.println(object.sub(object.a,object.b));
+	      System.out.println(object.mul(object.a,object.b));
+	      System.out.println(object.divide(object.a,object.b));
+	}
+}
+
+
+
