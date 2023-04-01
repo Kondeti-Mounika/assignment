@@ -2,7 +2,7 @@ package com.mounika;
 
 public class Calculator {
 	int a=10;
-    int b=20;
+    int b=20000;
     public int sum(int a, int b)
     {
    	 return a + b;
